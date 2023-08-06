@@ -45,7 +45,6 @@ body {
   /* ###Content### */
 
   section {
-    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +133,7 @@ body {
     font-family: 'Itim', cursive;
     font-weight: 1000;
   }
-.Skills{
+.skills{
   width: 80%;
   margin: 60px auto;
   color: #333;
@@ -143,7 +142,7 @@ body {
   font-family: 'Itim', cursive;
 }
 
-.Skills li{
+.skills li{
   margin: 20px 0;
   padding: 20px;
   list-style: none;
