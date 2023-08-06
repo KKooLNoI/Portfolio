@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Foundation</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+
+        table, td, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .squre {
+            list-style: square;
+        }
+        
+        #none {
+            list-style: none;
+        }
+
+        #rick_img {
+            width: 100px;
+            height: 100px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            background-color: orange;
+            border-radius: 3px;
+            padding: 10px 30px; /* inner area */
+            margin: 5px;
+            margin-top: 10px;
+            transition: 1s ease;
+        }
+
+        nav a:hover{
+            color: white;
+            text-decoration: none;
+            background-color: blanchedalmond;
+            border-radius: 3px;
+            padding: 5px; /* inner area */
+            margin: 5px;
+            transition: 1s;        
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- This is Heading -->
+    <div class="Heading">
+        <h1>Heading</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>
+
+    <!-- Paragraph -->
+    <p><b>Bold</b> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Aliquam illo, pariatur eius corporis dolore eveniet enim optio sunt aspernatur vero odit repellendus sint ipsam, autem maxime! Sunt aspernatur perferendis quae?</p>
+    
+    <!-- Text Font -->
+    <b>Bold</b>
+    <br>
+    <i>Italic</i>
+    <br>
+    <del>Text</del>
+    <br>
+    <mark>Mark</mark>
+    <br>
+    <b>A<sub>Subsicpt</sub></b>
+    <b>A<sup>2</sup></b>    
+
+    <br>
+    <br>
+    <a href="https://youtu.be/jmIcCVgI4x4" target="_blank"><img id="rick_img" src="https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg" alt="IMAGE ABC"></a>
+
+    <table>
+        <tr>
+            <td><b>First name</b></td>
+            <td>Last name</td>
+            <td>Nick name</td>
+        </tr>
+
+        <tr>
+            <td>Wacirawut</td>
+            <td>Suttitanon</td>
+            <td>Harry</td>
+        </tr>
+        <tr>
+            <td>Wacirawut</td>
+            <td>Suttitanon</td>
+            <td>Harry</td>
+        </tr>
+        <tr>
+            <td>Wacirawut</td>
+            <td>Suttitanon</td>
+            <td>Harry</td>
+        </tr>
+        <tr>
+            <td>Wacirawut</td>
+            <td>Suttitanon</td>
+            <td>Harry</td>
+        </tr>
+    </table>
+
+    <!-- bullet -->
+    <ul >
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+    </ul>
+    
+    <ul class="squre">
+        <p>square</p>
+        <li>List</li>
+        <li>List</li>
+        <li>List</li>
+    </ul>
+    
+    <ul id="none">
+        <p>None</p>
+        <li>List</li>
+        <li>List</li>
+        <li>List</li>
+    </ul>
+
+    <ol>
+        <li>List</li>
+        <li>List</li>
+        <li>List</li>
+    </ol>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                Form
+            </legend>
+
+            <label for="Fisrt Name">First name</label>
+            <input type="text" placeholder="Input your fisrt name">
+            <br>
+            <label for="Last Name">Last name</label>
+            <input type="text" placeholder="Input your last name">
+            <br>
+            <label for="Nick Name">Nick name</label>
+            <input type="text" placeholder="Input your nickname name">
+
+            <button><Submit></button>
+        </fieldset>
+    </form>
+
+    <p>
+        <b> This is tag p | &lt;p&gt; & &amp;</b>
+        <br>
+        <b> copyright trade mark &copy;</b>
+    </p>
+
+    <header></header>
+    
+    <section id="home"></section>
+    <section class="about"></section>
+    <footer>&copy; Wachirawut Suttitanon Alright reserve</footer>
+
+</body>
+</html>
